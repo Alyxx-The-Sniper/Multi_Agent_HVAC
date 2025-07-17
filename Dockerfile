@@ -10,4 +10,4 @@ COPY . .
 ENV PORT=8000
 EXPOSE 8000
 
-CMD ["streamlit", "run", "app.py", "--server.address", "0.0.0.0", "--server.port", "$PORT"]
+CMD ["streamlit", "run", "app.py", "--server.address=0.0.0.0", "--server.port=8501"]
